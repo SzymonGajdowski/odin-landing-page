@@ -25,6 +25,9 @@ button {
     background-color: #3882F6;
     border: 0;
     border-radius: 4px;
+    padding: 10px 26px;
+    color: #f9faf8;
+    font-weight: 800;
 }
 
 .navbar {
@@ -52,6 +55,7 @@ button {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .middle {
@@ -71,6 +75,7 @@ button {
     color: #f9faf8;
     margin: auto;
 }
+
 
 .title {
     margin: 32px;
@@ -96,10 +101,13 @@ button {
 .dogs img {
     width: 200px;
     height: 200px;
+    border: solid #3882F6;
+    border-radius: 4px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,10 +119,37 @@ button {
     font-size: 18px;
     color: #1F2937;
     font-style: italic;
-    margin: 48px 140px;
+    font-weight: lighter;
 }
 
 .quote-author {
     font-size: 20px;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+}
+
+.last {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat {
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.right-button button {
+    border: solid #f9faf8;
 }
